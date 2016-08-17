@@ -1,0 +1,71 @@
+/* styles */
+/* formatting for the main workspace */
+.canvas {
+  background-color: white;
+  border-radius: 10px;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* This is the background color */
+.container {
+  padding-top: 1cm;
+  padding-bottom:1cm;
+  background-color: #F1EEEE;
+}
+
+.threadA {
+  height:600px
+  background-color:#5A5A5A;
+  border-radius: 10px; 
+  /*box-shadow: 0 4px 8px 0.1 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+/* This is the background color */
+body {
+  background-color: #F1EEEE;
+}
+
+/* This contains sets of menu items for performing different actions */
+.menu-item {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  height: 40px;
+}
+
+/* This contains formatting for the top level items, the spot were searh bars is */
+.top-menu {
+  height: 30px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0.1 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+
+/* The Emerald part of the webpage, which contains the home icon */
+.home {
+  background-color: #5CF7DD;
+  height: 60px;
+  width: 60px;
+}
+
+/* The home icon */
+span.glyphicon-home {
+    font-size: 1.5em;
+}
+
+/* this centers the home button inplace */
+.home-button {
+  text-align: center;
+  line-height: 60px;
+}
+
+/* formatting for the ruler item */
+.ruler {
+  padding-top: 10px;
+  border-style: none solid solid solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
